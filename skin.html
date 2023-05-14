@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Página de pre-lanzamiento</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #f44336;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+      .cta-btn {
+        display: inline-block;
+        background-color: #fff;
+        color: #f44336;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        text-decoration: none;
+        margin-top: 20px;
+      }
+      .cta-btn:hover {
+        background-color: #f44336;
+        color: #fff;
+      }
+      .features {
+        padding: 50px;
+        text-align: center;
+      }
+      .features h2 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .features p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+      }
+      .funciones {
+        list-style: none;
+        padding: 0;
+      }
+      .funciones li:before {
+        content: "✓ ";
+        color: green;
+        font-size: 1.5em;
+        margin-right: 10px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+      form h2 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      input[type="text"],
+      input[type="email"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+      }
+      input[type="submit"] {
+        display: block;
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        text-decoration: none;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #fff;
+        color: #f44336;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>¡Descubre la app de cuidado de la piel más avanzada!</h1>
+      <p>
+        Regístrate para recibir actualizaciones y ser el primero en usar nuestra
+        aplicación.
+      </p>
+      <a href="#registro" class="cta-btn">Regístrate ahora</a>
+    </header>
+
+    <section class="features">
+      <h2>Descubre las funciones de nuestra app</h2>
+      <p>
+        Nuestra aplicación utiliza tecnología de inteligencia artificial para
+        analizar tu piel y recomendarte los mejores productos y tratamientos.
+      </p>
+      <p>Algunas de nuestras características incluyen:</p>
+      <ul class="funciones">
+        <li>Análisis de piel en tiempo real</li>
+        <li>Recomendaciones personalizadas de productos y tratamientos</li>
+        <li>
+          Conexión con dermatólogos certificados para consultas en línea
+          (Proximante)
+        </li>
+        <li>
+          Historial de cuidado de la piel para un seguimiento a largo plazo
+        </li>
+      </ul>
+    </section>
+    <form id="registro">
+      <h2>Regístrate para obtener acceso anticipado</h2>
+      <input type="text" name="nombre" placeholder="Nombre completo" />
+      <input type="email" name="email" placeholder="Correo electrónico" />
+      <input type="submit" value="Regístrate ahora" />
+    </form>
+    <footer>
+      <p>Copyright © 2023 - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
